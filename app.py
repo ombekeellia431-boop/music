@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from scipy.io import wavfile
-import voviepy.editor as mp
+import moviepy.editor as mp
 import io
 import random
 
