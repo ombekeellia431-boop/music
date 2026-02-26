@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from scipy.io import wavfil
+from scipy.io import wavfile
 import moviepy.editor as mp
 import io
 import random
