@@ -1,13 +1,8 @@
 import streamlit as st
 import numpy as np
 from scipy.io import wavfile
-import moviepy.editor as mp
 import io
 import random
-
-
-
-
 def generate_tone(frequency, duration, sample_rate=44100):
     """Generates a sine wave tone for a specific frequency."""
     t = np.linspace(0, duration, int(sample_rate * duration), False)
