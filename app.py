@@ -3,8 +3,6 @@ import numpy as np
 from scipy.io import wavfile
 import io
 import random
-from streamlit_mic_recorder import mic_recorder
-
 st.set_page_config(page_title="Audio Creative Suite", layout="wide")
 
 def generate_tone(freq, duration, sample_rate, wave_type):
