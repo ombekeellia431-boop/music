@@ -1,6 +1,5 @@
 streamlit
 numpy
 scipy
-streamlit-mic-recorder
 io
 random
